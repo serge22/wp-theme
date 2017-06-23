@@ -16,13 +16,13 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><img alt="Brand" src="..."></a>
+					<a class="navbar-brand" href="<?= site_url() ?>"><img alt="Brand" src=""></a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="top-menu">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Link</a></li>
-						<li><a href="#">Link</a></li>
+						<li class="active"><a href="<?= site_url('example') ?>">Link</a></li>
+						<li><a href="<?= site_url('test') ?>">Link</a></li>
 					</ul>
 				</div>
 			</div>
